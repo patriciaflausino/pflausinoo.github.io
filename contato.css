@@ -1,0 +1,25 @@
+form{
+	width: 500px;
+	margin: auto;
+}
+
+input{
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 14pt;
+}
+
+input:hover{
+	background-color: gray;
+}
+
+legend{
+	color: black;
+	font-size: 14pt;
+	font-weight: bolder;
+}
+
+fieldset{
+	border-color: black;
+	margin: 20px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Língua Brasileira de Sinais</title>
+	<meta name="author" content="Patrícia">
+	<meta name="description" content="Lìngua Brasileira de Sinais, Libras">
+	<meta name="keywords" content="Lingua Brasileira de Sinais, Libras, sinais, alfabeto, numeros,universal">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=device-widht,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="estilo.css"/>
+	<link rel="stylesheet" type="text/css" href="numeros.css">
+	<link rel="shortcut icon"  href="favicon.ico">
+</head>
+<script language="javascript" src="javascript.js"></script>
+
+<body id="topo">
+<div class="coluna"></div>
+<div class="coluna"></div>
+<body id="fim">
+<body onload="tamanhoreal();">	
+	<input type="button" value="+" onclick="fonte('w')"/>
+	<input type="button" value="-" onclick="fonte('x')"/>
+	<input type="button" value="100%" onclick="fonte('y')"/>
+	<div id="conteudo">
+	<div id="interface">
+
+	<header id="cabecalho">
+	
+	<h1>Língua Brasileira de Sinais</h1>
+	<img id="icone" src="numeros.jpeg">
+	
+
+	<nav id="menu">
+	<h1>Menu</h1>
+	<ul>
+		<li onmousemove="mudaFoto('home.jpeg')" onmouseout="mudaFoto('capa.jpeg')"><a href="index.html">Home</a></li>
+
+		<li onmousemove="mudaFoto('alfabeto.png')" onmouseout="mudaFoto('capa.jpeg')"><a href="alfabeto.html">Alfabeto</a></li>
+
+		<li onmousemove="mudaFoto('numeros.jpeg')" onmouseout="mudaFoto('capa.jpeg')"><a href="numeros.html">Números</a></li>
+
+		<li onmousemove="mudaFoto('video.jpeg')" onmouseout="mudaFoto('video1.jpeg')"><a href="video.html">Vídeo</a></li>
+
+		<li onmousemove="mudaFoto('contato.jpeg')" onmouseout="mudaFoto('capa.jpeg')"><a href="contato.html">Fale Conosco</a></li>
+	</ul>
+	</nav>
+	</header>
+
+	<section id="numeroslibras">
+	<article id="numerossinais">
+			<header id="cabecalho_sinais">
+				<hgroup>
+					<h1>Imagens dos Sinais dos Números em Libras</h1>
+			</header>
+
+	<p>Veja abaixo os sinais dos números em Libras. Ao passsar o mouse sobre a imagem conseguirão ver os números correspondentes a cada sinal.</p>
+
+	<ul id="fotos_numeros">
+		<li id="zero"><span>&nbsp;0</li></span>
+		<li id="um"><span>&nbsp;1</li></span>
+		<li id="dois"><span>&nbsp;2</li></span>
+		<li id="tres"><span>&nbsp;3</li></span>
+		<li id="quatro"><span>&nbsp;4</li></span>
+		<li id="cinco"><span>&nbsp;5</li></span>
+		<li id="seis"><span>&nbsp;6</li></span>
+		<li id="sete"><span>&nbsp;7</li></span>
+		<li id="oito"><span>&nbsp;8</li></span>
+		<li id="nove"><span>&nbsp;9</li></span>
+	</ul>
+	
+	</article>
+	</section>
+
+	<footer id="rodape">
+		<p>Copyright&copy; 2020 - Patrícia Cristina </p><br/>
+		<p>
+		<a href="#topo">Ir para o Topo</a>
+		</p>
+	</footer>
+</div>
+</body>
+</html>

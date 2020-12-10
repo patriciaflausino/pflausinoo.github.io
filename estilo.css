@@ -1,0 +1,297 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: white;
+	background-image: url(fundo.jpg);
+	color: black;
+	font-family: 'Satisfy', cursive;
+	font-size: 14pt;
+	margin-left: calc(100px - 80px);
+	margin-right: calc(100px - 80px);
+}
+
+div#interface{
+	width: 100%vw;
+	margin: auto;
+	padding: 10px;
+	text-align: left;
+	padding: 20px 20px 20px 20px;
+}
+
+div#conteudo{
+	font-size: 14px;
+}
+
+header#cabecalho {
+	border-bottom: 2px #4F4F4F solid;
+	height: 260px;
+}
+
+header#cabecalho img{
+	background-image: url(capa.jpeg);
+	width: 100%;
+	height: 80%;
+}
+
+header#cabecalho h1{
+	font-family: 'Satisfy', cursive;
+	font-size: 20pt;
+}
+
+header#cabecalho h2{
+	font-family: 'Satisfy', cursive;
+	font-size: 20pt;
+}
+
+figure.foto_com_legenda{
+	position: relative; 
+	width: 400px;
+	height:200px;
+	border:4px solid gray;
+	box-shadow: 1px 1px 6px black;
+}
+
+figure.foto_com_legenda img {
+	background-image: url(foto.jpeg);
+	width: 400px;
+	height:200px;
+}
+
+figure.foto_com_legenda figcaption{
+	background-color: rgba(0,0,0,.5);
+	color: white;
+	width: 400px;
+	height:200px;
+	padding: 10px;
+	top: 0px;
+	box-sizing: border-box;
+	position: absolute;
+	opacity: 0;
+}
+
+figure.foto_com_legenda:hover figcaption{
+	opacity: 1;
+}
+
+nav#menu {
+	display: block;
+}
+
+nav#menu a{
+	color: white;
+	text-decoration: none;
+}
+
+nav#menu a:hover{
+	 color: black;
+	 text-decoration: underline;
+}
+
+nav#menu ul{
+	list-style: none;
+	position: relative;
+	text-transform: uppercase;
+	margin-left: 600px;
+	margin-right:0px;
+	margin-top: -250px;
+	font-size: 12PT;
+}
+
+nav#menu li{
+	background-color:#828282;
+	padding: 2px;
+	margin: 2px;
+	display: inline-block; 
+	transition: background-color 1s;
+	border-radius: 20%;
+
+}
+
+nav#menu h1{
+	display: none;
+
+}
+
+nav#menu li:hover{
+	background-color: #4F4F4F;
+}
+
+footer#rodape{
+	border-top: 2px solid;
+}
+
+footer#rodape p{
+	text-align: center;
+}
+
+a{
+	color: #4F4F4F;
+}
+
+a:hover{
+	opacity: 0.7;
+}
+
+a:active{
+	font-weight: bold;
+}
+
+p{
+	text-align: justify;
+	text-indent: 50px;
+}
+
+form{
+	width: 400px;
+	margin: auto;
+	text-align: center;
+}
+
+legend{
+	color: black;
+	font-weight: bolder;
+}
+
+input{
+	font-size: 12pt;
+}
+
+div.box{
+	width: 100px;
+	display: inline-block;
+	margin:auto;
+	padding: 50px; 
+}
+
+p#definicao::first-letter{
+	font-weight: bold;
+	font-size: 40px;
+	color:black;
+	background-color: #00B2EE !important;	
+}
+p::selection{
+	background-color: yellow;
+}
+
+@media (max-width: 768px){
+div#interface{
+	width: 100%vw;
+	margin-left: 0px;
+	margin-right: 10px;
+	padding: 5px;
+	text-align: center;
+	text-indent: 5px;
+	
+}
+
+header#cabecalho {
+	border-bottom: 2px #4F4F4F solid;
+	height: 100%vh;
+}
+
+nav#menu ul{
+	margin: 0px;
+	font-size: 10pt;
+	text-transform: none;
+	width: 100%;
+}
+
+body{
+	background-color: white;
+	color: black;
+	font-family: 'Satisfy', cursive;
+	font-size: 10pt;
+	margin-left: 05px;
+	width: 100%;
+	height: 640px;
+	background-position: 100%;
+	text-align: left;
+	
+}
+
+nav#menu li{
+	background-color:#828282;
+	padding: 2px;
+	margin: 2px;
+	display: inline-block; 
+	transition: background-color 1s;
+	border-radius: 20%;
+	font-size: 8pt;
+}
+
+input{
+	font-size: 10pt;
+}
+
+header#cabecalho h1{
+	font-family: 'Satisfy', cursive;
+	font-size: 12pt;
+}
+
+header#cabecalho {
+	border-bottom: 2px #4F4F4F solid;
+	height: 260px;
+}
+
+header#cabecalho img{
+	background-image: url(capa.jpeg);
+	width: 94%;
+	height: 70%;
+}
+
+figure.foto_com_legenda{
+	position: relative; 
+	width: 300px;
+	height:150px;
+	border:4px solid gray;
+	box-shadow: 1px 1px 6px black;
+}
+
+figure.foto_com_legenda img {
+	background-image: url(foto.jpeg);
+	width: 300px;
+	height:150px;
+}
+
+figure.foto_com_legenda figcaption{
+	background-color: rgba(0,0,0,.3);
+	color: #00FF00	;
+	width: 300px;
+	height:150px;
+	padding: 10px;
+	top: 0px;
+	box-sizing: border-box;
+	position: absolute;
+	opacity: 1;
+}
+
+div.box{
+	width: 100px;
+	display: inline-block;
+	margin-right: 100px;
+	padding: 10px; 
+}
+
+div.box img{
+	width: 100%vw;
+	height: 100%vh;
+}
+
+form{
+	width: 300px;
+	margin: auto;
+}
+
+div#video{
+	border: 2px solid blue;
+	width: 200px;
+}
+
+div#video video{
+	width: 195px;
+}

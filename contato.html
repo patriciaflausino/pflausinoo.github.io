@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Língua Brasileira de Sinais</title>
+	<meta name="author" content="Patrícia">
+	<meta name="description" content="Lìngua Brasileira de Sinais, Libras">
+	<meta name="keywords" content="Lingua Brasileira de Sinais, Libras, sinais, alfabeto, numeros,universal">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=device-widht,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="estilo.css"/>
+	<link rel="stylesheet" type="text/css" href="contato.css">
+	<link rel="shortcut icon"  href="favicon.ico">
+
+
+</head>
+<script language="javascript" src="javascript.js"></script>
+
+<body id="topo">
+<div class="coluna"></div>
+<div class="coluna"></div>
+<body id="fim">
+<body onload="tamanhoreal();">	
+	<input type="button" value="+" onclick="fonte('w')"/>
+	<input type="button" value="-" onclick="fonte('x')"/>
+	<input type="button" value="100%" onclick="fonte('y')"/>
+	<div id="conteudo">
+	<div id="interface">
+
+	<header id="cabecalho">
+	
+		<h1>Língua Brasileira de Sinais</h1>
+		<img id="icone" src="contato.jpeg">
+		<nav id="menu">
+			<h1>Menu</h1>
+			<ul>
+				<li onmousemove="mudaFoto('home.jpeg')" onmouseout="mudaFoto('contato.jpeg')"><a href="index.html">Home</a></li>
+
+				<li onmousemove="mudaFoto('alfabeto.png')" onmouseout="mudaFoto('contato.jpeg')"><a href="alfabeto.html">Alfabeto</a></li>
+
+				<li onmousemove="mudaFoto('numeros.jpeg')" onmouseout="mudaFoto('contato.jpeg')"><a href="numeros.html">Números</a></li>
+
+				<li onmousemove="mudaFoto('video.png')" onmouseout="mudaFoto('contato.jpeg')"><a href="video.html">Vídeo</a></li>
+
+				<li onmousemove="mudaFoto('contato.jpeg')" onmouseout="mudaFoto('contato.jpeg')"><a href="contato.html">Fale Conosco</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="contato">
+		<article id="noticia">
+				<hgroup>
+					<h2>Fale Conosco</h2>
+					<h3>Ficou com dúvida? Entre em contato conosco através do formulário abaixo!</h3>
+				</hgroup>
+			</header>
+				<form method="post" id="fmr_contato1">
+				  <fieldset id="identificacao"><legend>Identificação do Usuário</legend>
+				  	<label>
+					  <p>Nome:<input type="text" name="frm_nome" id="nome" size="30" maxlength="40" placeholder="Nome Completo"></p>
+					</label>
+					<label>
+					  <p>Telefone:<input type="text" name="frm_telefone" placeholder="(XX)XXXXX-XXXX"></p>
+					</label>
+					<label>
+					  <p>Senha:<input type="password" name="frm_senha" id="senha" size="12" maxlength="12" placeholder="12 dígitos"></p>
+					</label>
+					<label>
+					  <p>Email:<input type="email" name="frm_email" id="email" size="30" maxlength="30" placeholder="Digite seu email"></p>
+					</label>
+					<label>
+					  <p>Data de Nascimento:<input type="date" name="frm_data" id="data"></p>
+					</label>
+				  </fieldset>
+
+				  <fieldset id="endereco"><legend>Endereço</legend>
+					<label>
+						<p>Logradouro:<input type="text" name="frm_rua" id="rua" size="20" maxlength="100" placeholder="Av. Rua"></p>
+					</label>
+					<label>
+						<p>Número:<input type="number" name="frm_numero" id="numero" min="0" max="9999" placeholder="N°"></p>
+					</label>
+					<label>
+					<p>Cidade: <input type="text" name="frm_cidade" id="cidade" size="20" maxlength="30" placeholder="Cidade"></p>
+					</label>
+					<p>Cep:<input type="text" name="frm_cep" id="cep" size="8" maxlength="8" placeholder="xx.xxx.-xxx"></p>
+					<label>
+					<p>Região:
+					</label><select name="frm_regiao" id="regiao">
+						<option>Norte</option>
+						<option>Nordeste</option>
+						<option>Centro-Oeste</option>
+						<option>Sudeste</option>
+						<option>Sul</option>
+					</select></p>
+				  </fieldset>
+
+				  <fieldset id="contato_libras"><legend>Contato com Libras</legend>
+						<label>
+						Já teve contato com Libras?
+							<input type="radio" name="frm_contato"checked>Sim
+						</label>
+
+						<label>
+							<input type="radio" name="frm_contato">Não<br>
+						</label>
+				  </fieldset>
+
+				  <fieldset id="experiencia"><legend>Experiência em Libras:</legend>
+				  <label for="experiencia_libras"> Selecione sua experiencia em Libras:</label>
+				  <select name="frm_experiencia" id="experiencia_libras">
+				  	<option>Iniciante</option>
+					<option>Intermediario</option>
+					<option>Avançado</option>
+				  </select>
+				  </fieldset>
+				</form>
+
+				<form action="" method="get">
+			 	  <fieldset id="duvidas"><legend>Dúvidas, Sugestões e/ou Elogios</legend>
+			 	  	<label>
+						Digite seu texto no campo abaixo<br>
+						<textarea maxlength="200" onclick="caracteres();" onblur="caracteres();" onkeypress="caracteres();" cols="50" rows="5" id="mensagem"></textarea><br>
+					</label><br>
+				  </fieldset>
+				    <input type="submit" value="Enviar" id="botaoenviar"><br>
+				    <div id="caracterrestante"></div>
+				</form>
+		</article>
+	</section>
+
+
+
+
+<footer id="rodape">
+	<p>Copyright&copy; 2020 - Patrícia Cristina </p><br/>
+	<p></p>
+	<p><a href="#topo">Ir para o Topo</a></p>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,382 @@
+ul#fotos_letras_alfabeto{
+	width: 700px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+}
+
+ul#fotos_letras_alfabeto li{
+	float: left;
+	width: 124px;
+	height: 222px;
+	margin: 10px;
+	border: 5px solid white;
+	background-color: #ffffff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+	-webkit-transition: all 0.3s ease-in;
+}
+
+ul#fotos_letras_alfabeto li span{
+	opacity: 0;
+	color: white;
+	text-shadow:1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.4);
+	font-size: 10pt;
+	line-height: 370px;
+	padding: 5px;
+}  
+
+ul#fotos_letras_alfabeto li:hover{
+	-webkit-transform:scale(1.5);
+}
+
+ul#fotos_letras_alfabeto li:hover span{
+	opacity: 1;
+}
+
+ul#fotos_letras_alfabeto li#a{
+	background: url(a.jpg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#b{
+	background: url(b.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#b:hover{
+	background-position: 0px 0px;
+	background-size: 124px 180px;
+}
+
+
+ul#fotos_letras_alfabeto li#c{
+	background: url(c.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#d{
+	background: url(d.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#e{
+	background: url(e.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#f{
+	background: url(f.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#g{
+	background: url(g.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#h{
+	background: url(h.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#i{
+	background: url(i.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#j{
+	background: url(j.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#k{
+	background: url(k.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#l{
+	background: url(l.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#m{
+	background: url(m.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#n{
+	background: url(n.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#o{
+	background: url(o.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#p{
+	background: url(p.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#q{
+	background: url(q.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#r{
+	background: url(r.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#s{
+	background: url(s.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#t{
+	background: url(t.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#u{
+	background: url(u.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#v{
+	background: url(v.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#w{
+	background: url(w.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#x{
+	background: url(x.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#y{
+	background: url(y.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#z{
+	background: url(z.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_letras_alfabeto li#a:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_letras_alfabeto li#b:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_letras_alfabeto li#c:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_letras_alfabeto li#d:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_letras_alfabeto li#e:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_letras_alfabeto li#f:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_letras_alfabeto li#g:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_letras_alfabeto li#h:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_letras_alfabeto li#i:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_letras_alfabeto li#j:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_letras_alfabeto li#k:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_letras_alfabeto li#l:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_letras_alfabeto li#m:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_letras_alfabeto li#n:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_letras_alfabeto li#o:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_letras_alfabeto li#p:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_letras_alfabeto li#q:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_letras_alfabeto li#r:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_letras_alfabeto li#s:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_letras_alfabeto li#t:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_letras_alfabeto li#u:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_letras_alfabeto li#v:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_letras_alfabeto li#w:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_letras_alfabeto li#x:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_letras_alfabeto li#y:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_letras_alfabeto li#z:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+

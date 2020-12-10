@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Língua Brasileira de Sinais</title>
+	<meta name="author" content="Patrícia">
+	<meta name="description" content="Lìngua Brasileira de Sinais, Libras">
+	<meta name="keywords" content="Lingua Brasileira de Sinais, Libras, sinais, alfabeto, numeros,universal">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=device-widht,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="estilo.css"/>
+	<link rel="stylesheet" type="text/css" href="video.css">
+	<link rel="shortcut icon"  href="favicon.ico">
+</head>
+<script language="javascript" src="javascript.js"></script>
+
+<body id="topo">
+<div class="coluna"></div>
+<div class="coluna"></div>
+<body id="fim">
+<body onload="tamanhoreal();">	
+	<input type="button" value="+" onclick="fonte('w')"/>
+	<input type="button" value="-" onclick="fonte('x')"/>
+	<input type="button" value="100%" onclick="fonte('y')"/>
+	<div id="conteudo">
+	<div id="interface">
+
+	<header id="cabecalho">
+	
+	<h1>Língua Brasileira de Sinais</h1>
+	<img id="icone" src="video.png">
+	
+
+	<nav id="menu">
+	<h1>Menu</h1>
+	<ul>
+		<li onmousemove="mudaFoto('home.jpeg')" onmouseout="mudaFoto('capa.jpeg')"><a href="index.html">Home</a></li>
+
+		<li onmousemove="mudaFoto('alfabeto.png')" onmouseout="mudaFoto('capa.jpeg')"><a href="alfabeto.html">Alfabeto</a></li>
+
+		<li onmousemove="mudaFoto('numeros.jpeg')" onmouseout="mudaFoto('capa.jpeg')"><a href="numeros.html">Números</a></li>
+
+		<li onmousemove="mudaFoto('video.png')" onmouseout="mudaFoto('video1.png')"><a href="video.html">Vídeo</a></li>
+
+		<li onmousemove="mudaFoto('contato.jpeg')" onmouseout="mudaFoto('capa.jpeg')"><a href="contato.html">Fale Conosco</a></li>
+	</ul>
+	</nav>
+	</header>
+
+	<section id="fotosvideo">
+	<article id="fotossinais">
+			<header id="cabecalho_sinais">
+				<hgroup>
+					<h1>Vídeo da música Conquitando o Impossível em Libras</h1>
+			</header>
+
+	<p>Veja abaixo o vídeo em Libras da música Conquistando o Impossível. Este vídeo possui áudio para que possa estar acessível a todos. </p>
+		<div id="video">
+			<video id="videolibras" controls="controls">
+				<source src="videolibras.mp4" type="video/mp4">
+			</video>
+		</div>
+			
+	</article>
+	</section>
+
+	<footer id="rodape">
+		<p>Copyright&copy; 2020 - Patrícia Cristina </p><br/>
+		<p>
+		<a href="#topo">Ir para o Topo</a>
+		</p>
+	</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,167 @@
+ul#fotos_numeros{
+	width: 700px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+}
+
+ul#fotos_numeros li{
+	float: left;
+	width: 124px;
+	height: 222px;
+	margin: 10px;
+	border: 5px solid white;
+	background-color: #ffffff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+	-webkit-transition: all 0.3s ease-in;
+}
+
+ul#fotos_numeros li span{
+	opacity: 0;
+	color: white;
+	text-shadow:1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.4);
+	font-size: 10pt;
+	line-height: 370px;
+	padding: 5px;
+}  
+
+ul#fotos_numeros li:hover{
+	-webkit-transform:scale(1.5);
+}
+
+ul#fotos_numeros li:hover span{
+	opacity: 1;
+}
+
+ul#fotos_numeros li#zero{
+	background: url(0.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_numeros li#um{
+	background: url(1.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_numeros li#dois{
+	background: url(2.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_numeros li#tres{
+	background: url(3.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_numeros li#quatro{
+	background: url(4.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_numeros li#cinco{
+	background: url(5.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_numeros li#seis{
+	background: url(6.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_numeros li#sete{
+	background: url(7.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_numeros li#oito{
+	background: url(8.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+ul#fotos_numeros li#nove{
+	background: url(9.jpeg) no-repeat;
+	color: white;
+	background-position: 50% 50%;
+	background-size: 180px 180px;
+	background-color: #ffffff
+}
+
+
+ul#fotos_numeros li#zero:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_numeros li#um:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_numeros li#dois:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_numeros li#tres:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_numeros li#quatro:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_numeros li#cinco:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_numeros li#seis:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_numeros li#sete:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_numeros li#oito:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
+
+ul#fotos_numeros li#nove:hover{
+	background-position: 0px 0px;
+	background-size: 124px 222px;
+}
